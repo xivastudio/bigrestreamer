@@ -47,7 +47,7 @@ jobs:
       - name: Build Multi-Arch
         uses: docker/build-push-action@v5
         with:
-          builder: ${{ steps.buildx.outputs.name }}
+          # builder: ${{ steps.buildx.outputs.name }}
           context: .
           file: ./Dockerfile
           build-args: |
