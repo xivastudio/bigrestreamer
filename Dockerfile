@@ -1,4 +1,4 @@
-ARG RESTREAMER_UI_IMAGE=barnabe/bigrestreamer-ui:latest
+ARG RESTREAMER_UI_IMAGE=xivastudio/bigrestreamer-ui:latest
 
 ARG CORE_IMAGE=datarhei/base:alpine-core-latest
 
