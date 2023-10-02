@@ -22,7 +22,7 @@ RUN ffmpeg -buildconf
 ENV CORE_CONFIGFILE=/core/config/config.json
 ENV CORE_DB_DIR=/core/config
 ENV CORE_ROUTER_UI_PATH=/core/ui
-ENV CORE_STORAGE_DISK_DIR=/core/data
+ENV CORE_STORAGE_DISK_DIR=/core/ui
 
 EXPOSE 8080/tcp
 EXPOSE 8181/tcp
